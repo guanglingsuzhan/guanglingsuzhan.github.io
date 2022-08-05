@@ -9,16 +9,16 @@
   
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="在这里探讨所有的排序,加深记忆，希望自己在总结的时候有新的思考和理解，可能有抄袭其他blog的方面，希望没有造成困扰。排序之间的关系               类别          排序方法          时间复杂度          稳定性                平均情况         最好情况         最坏情况        辅助存储">
+  <meta name="description" content="在这里探讨所有的排序,加深记忆，希望自己在总结的时候有新的思考和理解，可能有抄袭其他blog的方面，希望没有造成困扰。排序之间的关系">
 <meta property="og:type" content="article">
 <meta property="og:title" content="基础内容：排序的理解">
 <meta property="og:url" content="https://guanglingsuzhan.github.io/2022/08/05/02/index.html">
 <meta property="og:site_name" content="鲁维东的博客">
-<meta property="og:description" content="在这里探讨所有的排序,加深记忆，希望自己在总结的时候有新的思考和理解，可能有抄袭其他blog的方面，希望没有造成困扰。排序之间的关系               类别          排序方法          时间复杂度          稳定性                平均情况         最好情况         最坏情况        辅助存储">
+<meta property="og:description" content="在这里探讨所有的排序,加深记忆，希望自己在总结的时候有新的思考和理解，可能有抄袭其他blog的方面，希望没有造成困扰。排序之间的关系">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://6d69-mine2-93691a-1302872319.tcb.qcloud.la/blog/img/1.jpg">
 <meta property="article:published_time" content="2022-08-05T05:39:39.000Z">
-<meta property="article:modified_time" content="2022-08-05T10:54:26.053Z">
+<meta property="article:modified_time" content="2022-08-05T11:30:55.940Z">
 <meta property="article:author" content="LWD">
 <meta property="article:tag" content="排序">
 <meta name="twitter:card" content="summary">
@@ -69,9 +69,21 @@
 					<nav class="header-menu">
 						<ul>
 						
-							<li><a href="/">Home</a></li>
+							<li><a href="/">首页</a></li>
 				        
-							<li><a href="/archives">Archives</a></li>
+							<li><a href="/archives">随笔</a></li>
+				        
+							<li><a href="/springRelation">Spring相关</a></li>
+				        
+							<li><a href="/frontend">前端</a></li>
+				        
+							<li><a href="/dataBase">数据库</a></li>
+				        
+							<li><a href="/utils">工具</a></li>
+				        
+							<li><a href="/algorithm">算法</a></li>
+				        
+							<li><a href="/artificialIntelligence">人工智能</a></li>
 				        
 						</ul>
 					</nav>
@@ -84,6 +96,10 @@
 					<nav class="header-nav">
 						<div class="social">
 							
+								<a class="github" target="_blank" href="https://github.com/guanglingsuzhan" title="github">github</a>
+					        
+								<a class="mail" target="_blank" href="/1875909114@qq.com" title="mail">mail</a>
+					        
 						</div>
 						<!-- music -->
 						
@@ -112,7 +128,7 @@
 				
 				<section class="switch-part switch-part4">
 				
-					<div id="js-aboutme">I&#39;m a developer.</div>
+					<div id="js-aboutme">目前在做前端相关的工作，熟悉vue，js，和多端的应用工作，希望能够转到后端，从事服务器相关工作，有一定的工作经验。高中学历，27岁，自考大专中，希望那个公司的大佬缺人带带我，联系方式1875909114@qq.com.</div>
 				</section>
 				
 			</div>
@@ -138,9 +154,21 @@
 			<nav class="header-menu">
 				<ul>
 				
-					<li><a href="/">Home</a></li>
+					<li><a href="/">首页</a></li>
 		        
-					<li><a href="/archives">Archives</a></li>
+					<li><a href="/archives">随笔</a></li>
+		        
+					<li><a href="/springRelation">Spring相关</a></li>
+		        
+					<li><a href="/frontend">前端</a></li>
+		        
+					<li><a href="/dataBase">数据库</a></li>
+		        
+					<li><a href="/utils">工具</a></li>
+		        
+					<li><a href="/algorithm">算法</a></li>
+		        
+					<li><a href="/artificialIntelligence">人工智能</a></li>
 		        
 		        <div class="clearfix"></div>
 				</ul>
@@ -148,6 +176,10 @@
 			<nav class="header-nav">
 				<div class="social">
 					
+						<a class="github" target="_blank" href="https://github.com/guanglingsuzhan" title="github">github</a>
+			        
+						<a class="mail" target="_blank" href="/1875909114@qq.com" title="mail">mail</a>
+			        
 				</div>
 			</nav>
 		</header>				
@@ -193,6 +225,7 @@
     <div class="article-entry" itemprop="articleBody">
       
         <h1 id="在这里探讨所有的排序-加深记忆，希望自己在总结的时候有新的思考和理解，可能有抄袭其他blog的方面，希望没有造成困扰。"><a href="#在这里探讨所有的排序-加深记忆，希望自己在总结的时候有新的思考和理解，可能有抄袭其他blog的方面，希望没有造成困扰。" class="headerlink" title="在这里探讨所有的排序,加深记忆，希望自己在总结的时候有新的思考和理解，可能有抄袭其他blog的方面，希望没有造成困扰。"></a>在这里探讨所有的排序,加深记忆，希望自己在总结的时候有新的思考和理解，可能有抄袭其他blog的方面，希望没有造成困扰。</h1><h2 id="排序之间的关系"><a href="#排序之间的关系" class="headerlink" title="排序之间的关系"></a>排序之间的关系</h2><p><img src="https://6d69-mine2-93691a-1302872319.tcb.qcloud.la/blog/img/1.jpg" alt="Alt"></p>
+<span id="more"></span>
 <table border="1" cellpadding="1" cellspacing="1">
     <tr>
         <td rowspan="2">类别</td> 
